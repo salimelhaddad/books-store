@@ -4,7 +4,7 @@ import { Button } from "./button";
 
 describe("button", () => {
   it("should display button as expected", () => {
-    render(<Button />);
+    render(<Button label="Click me" />);
 
     const heading = screen.getByRole("button", {
       name: /Click me/,
